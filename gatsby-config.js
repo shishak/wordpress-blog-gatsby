@@ -3,7 +3,7 @@ require('dotenv').config({
 });
 const path = require('path');
 
-const siteUrl = 'https://wordpress-gatsby.netlify.com/';
+const siteUrl = 'https://focused-hawking-7fc196.netlify.com';
 module.exports = {
   siteMetadata: {
     siteUrl,
