@@ -3,7 +3,7 @@ require('dotenv').config({
 });
 const path = require('path');
 
-const siteUrl = 'https://focused-hawking-7fc196.netlify.com';
+const siteUrl = '35.188.114.84';
 module.exports = {
   siteMetadata: {
     siteUrl,
@@ -15,9 +15,9 @@ module.exports = {
     {
       resolve: 'gatsby-source-wordpress',
       options: {
-        baseUrl: 'mojaave.wordpress.com',
-        protocol: 'https',
-        hostingWPCOM: true,
+        baseUrl: '35.188.114.84',
+        protocol: 'http',
+        hostingWPCOM: false,
         useACF: false,
         auth: {
           wpcom_app_clientSecret: process.env.WORDPRESS_SECRET,
