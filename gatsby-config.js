@@ -3,7 +3,7 @@ require('dotenv').config({
 });
 const path = require('path');
 
-const siteUrl = '35.188.114.84';
+const siteUrl = 'http://35.188.114.84/';
 module.exports = {
   siteMetadata: {
     siteUrl,
